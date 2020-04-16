@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		178EEE4E238E738600484FF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178EEE4D238E738600484FF2 /* AppDelegate.swift */; };
+		178EEE50238E738600484FF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178EEE4F238E738600484FF2 /* SceneDelegate.swift */; };
+		178EEE52238E738600484FF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178EEE51238E738600484FF2 /* ViewController.swift */; };
+		178EEE55238E738600484FF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178EEE53238E738600484FF2 /* Main.storyboard */; };
+		178EEE57238E738A00484FF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 178EEE56238E738A00484FF2 /* Assets.xcassets */; };
+		178EEE5A238E738A00484FF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178EEE58238E738A00484FF2 /* LaunchScreen.storyboard */; };
+		178EEE65238E738A00484FF2 /* powermaxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178EEE64238E738A00484FF2 /* powermaxTests.swift */; };
+		178EEE70238E738A00484FF2 /* powermaxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178EEE6F238E738A00484FF2 /* powermaxUITests.swift */; };
+		178EEE80238E8F4300484FF2 /* BluetoothSerial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178EEE7F238E8F4300484FF2 /* BluetoothSerial.swift */; };
+		178EEE82238EA29E00484FF2 /* powermaxViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178EEE81238EA29E00484FF2 /* powermaxViewC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		178EEE61238E738A00484FF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 178EEE42238E738600484FF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 178EEE49238E738600484FF2;
+			remoteInfo = powermax;
+		};
+		178EEE6C238E738A00484FF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 178EEE42238E738600484FF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 178EEE49238E738600484FF2;
+			remoteInfo = powermax;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		178EEE4A238E738600484FF2 /* powermax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = powermax.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		178EEE4D238E738600484FF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		178EEE4F238E738600484FF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		178EEE51238E738600484FF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		178EEE54238E738600484FF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		178EEE56238E738A00484FF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		178EEE59238E738A00484FF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		178EEE5B238E738A00484FF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		178EEE60238E738A00484FF2 /* powermaxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = powermaxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		178EEE64238E738A00484FF2 /* powermaxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = powermaxTests.swift; sourceTree = "<group>"; };
+		178EEE66238E738A00484FF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		178EEE6B238E738A00484FF2 /* powermaxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = powermaxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		178EEE6F238E738A00484FF2 /* powermaxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = powermaxUITests.swift; sourceTree = "<group>"; };
+		178EEE71238E738A00484FF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		178EEE7F238E8F4300484FF2 /* BluetoothSerial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothSerial.swift; sourceTree = "<group>"; };
+		178EEE81238EA29E00484FF2 /* powermaxViewC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = powermaxViewC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		178EEE47238E738600484FF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178EEE5D238E738A00484FF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178EEE68238E738A00484FF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		178EEE41238E738600484FF2 = {
+			isa = PBXGroup;
+			children = (
+				178EEE4C238E738600484FF2 /* powermax */,
+				178EEE63238E738A00484FF2 /* powermaxTests */,
+				178EEE6E238E738A00484FF2 /* powermaxUITests */,
+				178EEE4B238E738600484FF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		178EEE4B238E738600484FF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				178EEE4A238E738600484FF2 /* powermax.app */,
+				178EEE60238E738A00484FF2 /* powermaxTests.xctest */,
+				178EEE6B238E738A00484FF2 /* powermaxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		178EEE4C238E738600484FF2 /* powermax */ = {
+			isa = PBXGroup;
+			children = (
+				178EEE81238EA29E00484FF2 /* powermaxViewC.swift */,
+				178EEE7F238E8F4300484FF2 /* BluetoothSerial.swift */,
+				178EEE4D238E738600484FF2 /* AppDelegate.swift */,
+				178EEE4F238E738600484FF2 /* SceneDelegate.swift */,
+				178EEE51238E738600484FF2 /* ViewController.swift */,
+				178EEE53238E738600484FF2 /* Main.storyboard */,
+				178EEE56238E738A00484FF2 /* Assets.xcassets */,
+				178EEE58238E738A00484FF2 /* LaunchScreen.storyboard */,
+				178EEE5B238E738A00484FF2 /* Info.plist */,
+			);
+			path = powermax;
+			sourceTree = "<group>";
+		};
+		178EEE63238E738A00484FF2 /* powermaxTests */ = {
+			isa = PBXGroup;
+			children = (
+				178EEE64238E738A00484FF2 /* powermaxTests.swift */,
+				178EEE66238E738A00484FF2 /* Info.plist */,
+			);
+			path = powermaxTests;
+			sourceTree = "<group>";
+		};
+		178EEE6E238E738A00484FF2 /* powermaxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				178EEE6F238E738A00484FF2 /* powermaxUITests.swift */,
+				178EEE71238E738A00484FF2 /* Info.plist */,
+			);
+			path = powermaxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		178EEE49238E738600484FF2 /* powermax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 178EEE74238E738A00484FF2 /* Build configuration list for PBXNativeTarget "powermax" */;
+			buildPhases = (
+				178EEE46238E738600484FF2 /* Sources */,
+				178EEE47238E738600484FF2 /* Frameworks */,
+				178EEE48238E738600484FF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = powermax;
+			productName = powermax;
+			productReference = 178EEE4A238E738600484FF2 /* powermax.app */;
+			productType = "com.apple.product-type.application";
+		};
+		178EEE5F238E738A00484FF2 /* powermaxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 178EEE77238E738A00484FF2 /* Build configuration list for PBXNativeTarget "powermaxTests" */;
+			buildPhases = (
+				178EEE5C238E738A00484FF2 /* Sources */,
+				178EEE5D238E738A00484FF2 /* Frameworks */,
+				178EEE5E238E738A00484FF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				178EEE62238E738A00484FF2 /* PBXTargetDependency */,
+			);
+			name = powermaxTests;
+			productName = powermaxTests;
+			productReference = 178EEE60238E738A00484FF2 /* powermaxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		178EEE6A238E738A00484FF2 /* powermaxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 178EEE7A238E738A00484FF2 /* Build configuration list for PBXNativeTarget "powermaxUITests" */;
+			buildPhases = (
+				178EEE67238E738A00484FF2 /* Sources */,
+				178EEE68238E738A00484FF2 /* Frameworks */,
+				178EEE69238E738A00484FF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				178EEE6D238E738A00484FF2 /* PBXTargetDependency */,
+			);
+			name = powermaxUITests;
+			productName = powermaxUITests;
+			productReference = 178EEE6B238E738A00484FF2 /* powermaxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		178EEE42238E738600484FF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = newpower;
+				TargetAttributes = {
+					178EEE49238E738600484FF2 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					178EEE5F238E738A00484FF2 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 178EEE49238E738600484FF2;
+					};
+					178EEE6A238E738A00484FF2 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 178EEE49238E738600484FF2;
+					};
+				};
+			};
+			buildConfigurationList = 178EEE45238E738600484FF2 /* Build configuration list for PBXProject "powermax" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 178EEE41238E738600484FF2;
+			productRefGroup = 178EEE4B238E738600484FF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				178EEE49238E738600484FF2 /* powermax */,
+				178EEE5F238E738A00484FF2 /* powermaxTests */,
+				178EEE6A238E738A00484FF2 /* powermaxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		178EEE48238E738600484FF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178EEE5A238E738A00484FF2 /* LaunchScreen.storyboard in Resources */,
+				178EEE57238E738A00484FF2 /* Assets.xcassets in Resources */,
+				178EEE55238E738600484FF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178EEE5E238E738A00484FF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178EEE69238E738A00484FF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		178EEE46238E738600484FF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178EEE52238E738600484FF2 /* ViewController.swift in Sources */,
+				178EEE4E238E738600484FF2 /* AppDelegate.swift in Sources */,
+				178EEE80238E8F4300484FF2 /* BluetoothSerial.swift in Sources */,
+				178EEE50238E738600484FF2 /* SceneDelegate.swift in Sources */,
+				178EEE82238EA29E00484FF2 /* powermaxViewC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178EEE5C238E738A00484FF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178EEE65238E738A00484FF2 /* powermaxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178EEE67238E738A00484FF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178EEE70238E738A00484FF2 /* powermaxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		178EEE62238E738A00484FF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 178EEE49238E738600484FF2 /* powermax */;
+			targetProxy = 178EEE61238E738A00484FF2 /* PBXContainerItemProxy */;
+		};
+		178EEE6D238E738A00484FF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 178EEE49238E738600484FF2 /* powermax */;
+			targetProxy = 178EEE6C238E738A00484FF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		178EEE53238E738600484FF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				178EEE54238E738600484FF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		178EEE58238E738A00484FF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				178EEE59238E738A00484FF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		178EEE72238E738A00484FF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		178EEE73238E738A00484FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		178EEE75238E738A00484FF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HXPJVMJFSU;
+				INFOPLIST_FILE = powermax/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.newpower.powermax1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		178EEE76238E738A00484FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HXPJVMJFSU;
+				INFOPLIST_FILE = powermax/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.newpower.powermax1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		178EEE78238E738A00484FF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HXPJVMJFSU;
+				INFOPLIST_FILE = powermaxTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.newpower.powermaxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/powermax.app/powermax";
+			};
+			name = Debug;
+		};
+		178EEE79238E738A00484FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HXPJVMJFSU;
+				INFOPLIST_FILE = powermaxTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.newpower.powermaxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/powermax.app/powermax";
+			};
+			name = Release;
+		};
+		178EEE7B238E738A00484FF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HXPJVMJFSU;
+				INFOPLIST_FILE = powermaxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.newpower.powermaxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = powermax;
+			};
+			name = Debug;
+		};
+		178EEE7C238E738A00484FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HXPJVMJFSU;
+				INFOPLIST_FILE = powermaxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.newpower.powermaxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = powermax;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		178EEE45238E738600484FF2 /* Build configuration list for PBXProject "powermax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178EEE72238E738A00484FF2 /* Debug */,
+				178EEE73238E738A00484FF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		178EEE74238E738A00484FF2 /* Build configuration list for PBXNativeTarget "powermax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178EEE75238E738A00484FF2 /* Debug */,
+				178EEE76238E738A00484FF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		178EEE77238E738A00484FF2 /* Build configuration list for PBXNativeTarget "powermaxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178EEE78238E738A00484FF2 /* Debug */,
+				178EEE79238E738A00484FF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		178EEE7A238E738A00484FF2 /* Build configuration list for PBXNativeTarget "powermaxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178EEE7B238E738A00484FF2 /* Debug */,
+				178EEE7C238E738A00484FF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 178EEE42238E738600484FF2 /* Project object */;
+}
